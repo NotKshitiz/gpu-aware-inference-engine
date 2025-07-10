@@ -39,3 +39,8 @@ FastAPI Inference API
        └── Response
   |
   └── Logs / Metrics → Loki / Prometheus / Grafana
+```
+
+## Status
+Project is under active development.
+Initial implementation of model serving, monitoring stack, and queue-based retry system in progress.
