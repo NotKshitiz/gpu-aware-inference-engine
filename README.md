@@ -45,7 +45,7 @@ FastAPI Inference API
 Project is under active development.
 Initial implementation of model serving, monitoring stack, and queue-based retry system in progress.
 
- 🧠 Initial Architecture (Whiteboard Draft)
+ Initial Architecture (Whiteboard Draft)
 
 This is the first draft of the system architecture for the GPU Inference Project.
 
