@@ -3,10 +3,7 @@ from models import Structure
 
 app = FastAPI()
 
-
-
-
-@app.post("/input")
-def input(inp: Structure):
+@app.post("/generate")
+def generate(inp: Structure):
     return {"response"}
     
