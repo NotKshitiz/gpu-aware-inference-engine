@@ -2,7 +2,6 @@ from transformers import AutoTokenizer
 import onnxruntime as ort
 import numpy as np
 
-# Load tokenizer and ONNX session
 tokenizer = AutoTokenizer.from_pretrained("onnx/gpt2")
 session = ort.InferenceSession(r"C:\Users\kshit\OneDrive\Documents\Desktop\Transformers\onnx-gpt2\model.onnx", providers=["DmlExecutionProvider"])
 
